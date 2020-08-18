@@ -86,4 +86,10 @@ display: flex;
         height: 55px;
         background-size: 540px;
     }
+    .applyDiv img{
+        width: 80px;
+    }
+    .whatsapp div{
+        padding: 10px 10px;
+    }
 }
