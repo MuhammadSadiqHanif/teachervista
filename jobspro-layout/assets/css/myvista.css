@@ -1,0 +1,89 @@
+body{
+    background-color:#bdd7ee;
+}
+.myvista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 0px 10px;
+}
+.myvistahead{
+    background-image: url(/assets/images/myvista.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 670px
+}
+.innerVista{
+    width: 460px;
+    height: 350px;
+    margin-top: 80px;
+}
+.innerVista .tabs{
+    display: flex;
+}
+.innerVista .tabs div{
+    background-color: white;
+    margin-right: 10px;
+    padding: 6px 15px;
+    display: flex;
+    align-items: center;
+}
+.innerVista h6{
+margin: 3px;
+}
+
+.innerVista .tabs div:hover{
+    background-color: #203864;
+    color: white;
+}
+.favDivs div{
+background-color: white;
+margin-top: 10px;
+padding: 10px 5px;
+/* text-align: center; */
+display: flex;
+}
+
+.favDivs p{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 5px;
+
+}
+
+.active{
+    background-color: #203864 !important;
+    color: white;
+}
+.applyDiv{
+    background-color: white;
+    margin-top: 10px ;
+    padding: 20px 23px;
+    margin-bottom: 100px;
+    display: none;
+
+}
+.applyDiv .applyImg{
+    text-align: center;
+    padding: 10px;
+}
+.applyDiv img{
+    width: 100px;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp div{
+    padding: 10px 20px;
+}
+@media screen and (max-width:425px){
+    .myvistahead{
+        height: 55px;
+        background-size: 540px;
+    }
+}
