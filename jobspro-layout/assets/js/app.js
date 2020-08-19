@@ -11,3 +11,8 @@ function apply(){
     document.getElementById("favDivs").style.display= 'none'
     document.getElementById("applyDiv").style.display= 'block'
 }
+function expand(){
+    // document.getElementById('job').style.height = 'auto'
+    document.getElementById('job').classList.toggle('expandtrue')
+
+}

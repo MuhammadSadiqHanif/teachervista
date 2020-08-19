@@ -22,6 +22,7 @@ body{
 }
 .innerVista .tabs{
     display: flex;
+    cursor: pointer;
 }
 .innerVista .tabs div{
     background-color: white;
@@ -38,12 +39,18 @@ margin: 3px;
     background-color: #203864;
     color: white;
 }
-.favDivs div{
+.favDivs .job{
 background-color: white;
 margin-top: 10px;
 padding: 10px 5px;
 /* text-align: center; */
 display: flex;
+max-height: 85px;
+overflow: hidden;
+transition: 0.8s;
+}
+.favDivs .job .fa-chevron-circle-down{
+    cursor: pointer;
 }
 
 .favDivs p{
@@ -92,4 +99,10 @@ display: flex;
     .whatsapp div{
         padding: 10px 10px;
     }
+}
+
+.expandtrue{
+    max-height: 1000px !important;
+    transition: 0.8s;
+
 }
